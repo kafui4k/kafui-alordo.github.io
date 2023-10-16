@@ -22,7 +22,7 @@ import KafuiAlordoPhoto from "./assets/kafui-alordo.jpg";
 export default function Home() {
   return (
     <main>
-      <header className="flex p-8 gap-5">
+      <header className="flex flex-col p-8 gap-5 lg:flex-row">
         <Image
           className="border-4 rounded-lg"
           src={KafuiAlordoPhoto}
@@ -34,7 +34,7 @@ export default function Home() {
           <h1>Software Engineer,</h1>
           <p>Building applications for the web and mobile.</p>
           <p>Based in Ho, Volta, Ghana.</p>
-          <div className="header-text-right-link w-1/6 bg-gray-900 p-2 text-center">
+          <div className="header-text-right-link w-full bg-gray-900 p-2 text-center">
             <Link
               className="text-sky-400 no-underline hover:underline"
               href="https://drive.google.com/file/d/1mrnL2I3FSdqsk7ShHysTD2oqmDk4f7Ip/view?usp=sharing"
@@ -131,7 +131,7 @@ export default function Home() {
 
       <section className="contact">
         <h2>Contact.</h2>
-        <ul className="flex justify-between items-center">
+        <ul className="flex flex-col gap-3 lg:flex-row">
           <li>
             <Link href="https://twitter.com/Kafui4k" target="_blank">
               <FaXTwitter size="2em" />
