@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  /* background: grey; */
+}
+
+main {
+  @apply max-w-5xl px-8 mx-auto;
+}
+
+h1,
+h2 {
+  @apply font-bold text-5xl py-5;
+}
+
+.header-text-right {
+  @apply flex-1 p-2;
+}
+
+.header-text-right > p {
+  @apply tracking-widest leading-6 font-medium;
+}
+
+.about {
+  background: #f8fbfc;
+  @apply p-8 rounded-lg;
+}
+
+.about > p {
+  @apply tracking-widest leading-8 font-thin mb-5 text-2xl;
+}
+
+.work {
+  @apply p-8;
+}
+
+.work > p {
+  @apply tracking-widest leading-8 font-thin mb-5 text-2xl;
+}
+
+.card {
+  @apply flex gap-5 p-2 bg-slate-200 shadow-sm rounded-md py-3 px-4 relative overflow-hidden;
+}
+
+.card h3 {
+  @apply font-bold text-gray-800 mb-2;
+}
+
+.contact {
+  @apply p-8;
+}
+
+.contact ul > li {
+  @apply flex items-center gap-3;
+}
