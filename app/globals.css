@@ -12,6 +12,10 @@ main {
   @apply max-w-5xl px-8 mx-auto;
 }
 
+/* .header {
+  @apply ;
+} */
+
 h1,
 h2 {
   @apply font-bold text-5xl py-5;
