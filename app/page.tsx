@@ -49,7 +49,7 @@ export default function Home() {
       <section className="about">
         <h2>About.</h2>
         <p>
-          <span className="text-5xl">Hello, I’m Kafui.</span>
+          <span className="text-5xl">Hello, I&#x27;m Kafui.</span>
           <br /> A very Passionate Software Engineer - building applications for
           the web and mobile.
         </p>
